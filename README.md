@@ -41,6 +41,8 @@ from pypeline.config import clientsetup
 clientsetup(docker_base_url='unix://var/run/docker.sock')
 with Pipeline() as pipe:
     image = pipe.pull('busybox:latest')
+    with image.container(echo '"hello world"') as container:
+        container.run()
 ```
 
 Now build. It should all work. Now you can use [pypeline]( https://github.cerner.com/JA048043/pypeline "pypeline") code to write something.
