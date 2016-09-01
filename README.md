@@ -47,4 +47,4 @@ with Pipeline() as pipe:
         container.run()
 ```
 
-Now build. It should all work. Now you can use [pypeline]( https://github.cerner.com/JA048043/pypeline "pypeline") code to write something.
+Now build. It should all work. Now you can use [pypeline]( https://github.com/jamesaud/pypeline "pypeline") code to write something.
