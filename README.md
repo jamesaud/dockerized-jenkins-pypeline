@@ -10,7 +10,7 @@ This allows you to run pypeline code inside of Jenkins.
 If you want to run pypeline code on your existing jenkins machine, just follow the 4 install steps below.
 
 ##Install
->git clone https://github.cerner.com/JA048043/dockerized-jenkins-pypeline
+>git clone https://github.com/jamesaud/dockerized-jenkins-pypeline
 
 >cd dockerized-jenkins-pypeline
 
