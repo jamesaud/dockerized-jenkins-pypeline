@@ -9,7 +9,7 @@ RUN sudo apt-get update \
 	&& sudo apt-get install -y python3-pip
 RUN sudo apt-get install git
 
-RUN git clone https://github.cerner.com/JA048043/pypeline /pypeline
+RUN git clone https://github.com/jamesaud/pypeline /pypeline
 RUN sudo apt-get update
 WORKDIR /pypeline
 RUN sudo pip3 install -r requirements.txt
